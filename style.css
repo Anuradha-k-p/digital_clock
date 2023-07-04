@@ -1,0 +1,706 @@
+
+
+:root{
+    --font1: 'Manrope', sans-serif;
+    --font2: ;
+    --font2em:2em;
+    --wight:bold;
+    --border: #EDEDED;
+    --color1:#ffffff;
+    --bottom:2% 0%;
+    --redious:2%;
+
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #3D087B;
+
+}
+.cap1{
+    height: 10vh;
+    width: 40vw;
+    font-family: var(--font1);
+    font-size: var(--font2em);
+    font-weight: var(--wight);
+    color: black;
+    margin: var(--bottom);
+    background-color:#F6E2FF;
+    box-sizing: border-box;
+    padding: 2%;
+   text-align: center;
+   margin-top: -26%;
+   border-radius: 10px;
+}
+
+.back{
+    margin: 5% 10%;
+}
+.time{
+    height: 40vh;
+    width: 40vw;
+    background-color: var(--color1);
+    border-radius: var(--redious);
+    margin-top: -20%;
+}
+.logo{
+    margin-bottom:4%;
+   
+   
+}
+.clock{
+    height: 25vh;
+    width: 45vw; 
+   position: relative;
+   left: 55%;
+   top: 0%;
+   margin-top: -5%;
+
+}
+.c1{
+    height: 15vh;
+    width: 40vw; 
+    background-color: var(--color1);
+    margin: var(--bottom);
+   border-radius: 10px;
+   position: absolute;
+   z-index: 2;
+   text-align: center;
+   box-sizing: border-box;
+  padding: 3%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+  
+}
+.tm{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+ font-size: 3.5em;
+
+
+}
+#tm1{
+    font-size: 2em;
+    color: #8A11BF;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5%;
+    
+    
+}
+#tm2,#tm3,#tm4{
+    background-color: #F6E2FF;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#tm5{
+   background-color: #5F0089;
+   color: #EDEDED;
+   box-sizing: border-box;
+    padding-top: 2%;
+    
+}
+
+.hrs{
+    height: 5px;
+    width: 10px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 0.4em;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.c2{
+    height: 15vh;
+    width: 35vw; 
+    background-color: var(--color1);
+    opacity: 0.73;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 25%;
+   left: 5%;
+   z-index: 1;
+}
+.c3{
+    height: 15vh;
+    width: 30vw; 
+    background-color: var(--color1);
+    opacity: 0.23;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 15%;
+   left: 10%;
+   z-index: 2;
+}
+.cap2{
+    height: 10vh;
+    width: 40vw;
+    font-family: var(--font1);
+    font-size: var(--font2em);
+    font-weight: var(--wight);
+    color: black;
+    margin: var(--bottom);
+    background-color: var(--color1);
+   text-align: center;
+   position: relative;
+   left: 55%;
+   top: 15%;
+   margin-top: -1%;
+   border-radius: 10px;
+   box-sizing: border-box;
+   padding: 2%;
+}
+.img{
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+   left: 55%;
+   top: 0%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -2%;
+   margin-bottom: 7%;
+   border-radius: 10px;
+   background-color: #EDEDED;
+
+}
+
+
+.last{
+    width:40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.b1{
+    width: 19vw;
+    height: 25vh;
+}
+.but{
+    width: 17vw;
+    height: 7vh;
+    background-image: linear-gradient(to left,#CB52F8,#FC5EFF);
+    border-radius: 10px;
+    border: 2px solid #8E53F0;
+    font-size: 1.5em;
+    color: #ffffff;
+
+}
+
+.but:hover{
+    background-image: linear-gradient(to left,#FC5EFF,#CB52F8);
+}
+#d{
+    width: 19vw;
+    height: 16vh;
+    background-color: #EDEDED;
+    opacity: 0.23;
+    border-radius: 10px;  
+    box-sizing: border-box;
+    padding: 0.5%;
+   text-align: center;
+   font-size: 22px;
+   color: #c90788;
+   line-height: 7px;
+   position: relative;
+   top: -230px;
+   left: 370px;
+}
+
+.time{
+    width: 40vw;
+    height: 35vh;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   padding: 10px;
+   box-sizing: border-box;
+   
+}
+.fx{
+    width: 39vw;
+    height: 7vh;
+   
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.cp{
+    width: 10vw;
+    height: 10vh;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+select{
+    height:5vh;
+    width: 12vw;
+    font-size: medium;
+    
+}
+
+.dot{
+    height: 10vh;
+    width: 1vw;
+    font-size: 2.5em;
+   margin-top: 2%;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+
+    
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #3D087B;
+
+}
+.cap1{
+    height: 10vh;
+    width: 40vw;
+   text-align: center;
+  position:absolute;
+  top: 110%;
+  left: 5%;
+  font-size: 1.5em;
+   
+}
+
+.back{
+    margin: 5% 5%;
+}
+.time{
+    height: 40vh;
+    width: 50vw;
+    background-color: var(--color1);
+    border-radius: var(--redious);
+    margin-top: -300px;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.logo{
+    margin-bottom:4%;
+   
+   
+}
+.clock{
+    height: 25vh;
+    width: 45vw; 
+   position: relative;
+   left: 55%;
+   top: 0%;
+   margin-top: -5%;
+   box-sizing: border-box;
+
+
+}
+.c1{
+    height: 15vh;
+    width: 40vw; 
+    background-color: var(--color1);
+    margin: var(--bottom);
+   border-radius: 10px;
+   position: absolute;
+   z-index: 2;
+   text-align: center;
+   box-sizing: border-box;
+  padding: 4%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+
+  
+}
+.tm{
+    height: 10vh;
+    width: 7vw;
+    border-radius: 10px;
+ font-size: 2.5em;
+ padding: 2.5%;
+ box-sizing: border-box;
+
+
+}
+#tm1{
+    display: none;
+    
+    
+}
+#tm2,#tm3,#tm4{
+    background-color: #F6E2FF;
+    position: relative;
+}
+#tm5{
+   background-color: #5F0089;
+   color: #EDEDED;
+}
+
+.hrs{
+    height: 5px;
+    width: 10px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 0.4em;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.c2{
+    height: 15vh;
+    width: 35vw; 
+    background-color: var(--color1);
+    opacity: 0.73;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 25%;
+   left: 5%;
+   z-index: 1;
+}
+.c3{
+    height: 15vh;
+    width: 30vw; 
+    background-color: var(--color1);
+    opacity: 0.23;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 15%;
+   left: 10%;
+   z-index: 2;
+}
+.cap2{
+    height: 10vh;
+    width: 40vw;
+    font-family: var(--font1);
+    font-size: 1.2em;
+   
+  
+}
+
+
+.last{
+    width:40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.b1{
+    width: 19vw;
+    height: 25vh;
+}
+.but{
+    width: 40vw;
+    height: 7vh;
+    background-image: linear-gradient(to left,#CB52F8,#FC5EFF);
+    border-radius: 10px;
+    border: 2px solid #8E53F0;
+    font-size: 1.5em;
+    color: #ffffff;
+    position:absolute;
+    top: 80%;
+    left: 5%;
+
+}
+
+.but:hover{
+    background-image: linear-gradient(to left,#FC5EFF,#CB52F8);
+}
+#d{
+    width: 40vw;
+    height: 20vh;
+    background-color: #EDEDED;
+    opacity: 0.23;
+    border-radius: 10px;  
+    box-sizing: border-box;
+   padding: 1%;
+   text-align: center;
+   font-size: 1em;
+   color: #c90788;
+   line-height: 7px;
+   position:absolute;
+   top: 90%;
+   left: 5%;
+}
+
+.time{
+    width: 40vw;
+    height: 35vh;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   padding: 10px;
+   box-sizing: border-box;
+   
+}
+.fx{
+    width: 39vw;
+    height: 7vh;
+   
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.cp{
+    width: 10vw;
+    height: 10vh;
+    font-size: 1em;
+   
+}
+
+select{
+    height:5vh;
+    width: 12vw;
+    font-size: small;
+    
+}
+
+.dot{
+    height: 10vh;
+    width: 1vw;
+    font-size: 2.5em;
+   margin-top: 2%;
+}
+.img{
+    height: 40vh;
+    width: 40vw;
+    position: absolute;
+   left: 55%;
+   top: 60%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -2%;
+   margin-bottom: 7%;
+   border-radius: 10px;
+   background-color: #EDEDED;
+
+}
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:850px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .back{
+        padding: 0%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+        .clock{
+            height: 25vh;
+            width: 100%; 
+           position: relative;
+           left: 0%;
+           top: 0%;
+           margin-top: -5%;
+           margin-left: 50px;
+           box-sizing: border-box;
+          
+        
+        }
+        .c1{
+            height: 12vh;
+            width: 90vw; 
+            background-color: var(--color1);
+           border-radius: 10px;
+           position: absolute;
+           z-index: 2;
+           text-align: center;
+           box-sizing: border-box;
+          padding: 3%;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+        
+          
+        }
+        .tm{
+            height: 70px;
+            width: 60px;
+            border-radius: 10px;
+         font-size: 2em;
+        
+        
+        }
+        #tm1{
+            font-size: 1em;
+            color: #8A11BF;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 5%;
+            
+            
+        }
+       
+        #tm5{
+           background-color: #5F0089;
+           color: #EDEDED;
+           padding-top: 10px;
+           box-sizing: border-box;
+        }
+        .c2{
+            height: 5vh;
+            width: 80vw; 
+            background-color: var(--color1);
+            opacity: 0.73;
+           border-radius: 10px;
+           position: absolute;
+           bottom: 39%;
+           left: 5%;
+           z-index: 1;
+        }
+        .c3{
+            height: 5vh;
+            width: 70vw; 
+            background-color: var(--color1);
+            opacity: 0.23;
+           border-radius: 10px;
+           position: absolute;
+           bottom: 29%;
+           left: 10%;
+           z-index: 2;
+        }
+        .cap2{
+            height: 10vh;
+            width: 90vw;
+           position: absolute;
+           left: 5%;
+           top: 30%;
+           margin-top: -5%;  
+        }
+        .time{
+            width: 90vw;
+            height: 35vh;
+           position: absolute;
+           left: 5%;
+           top: 75%;
+           
+        }
+        .fx{
+            width: 85vw;
+            height: 7vh;
+           
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+        }
+        .cp{
+            width: 20vw;
+            height: 10vh;
+            font-size: 1em;
+            box-sizing: border-box;
+            padding: 2px;
+        }
+        
+        select{
+            height:5vh;
+            width: 20vw;
+            font-size: small;
+            
+        }
+        
+        .img{
+            height: 40vh;
+            width: 90vw;
+            position: absolute;
+           left: 5%;
+           top: 78%;
+           background-repeat: no-repeat;
+           background-size: cover;
+           margin-top: -2%;
+           margin-bottom: 10%;
+           border-radius: 10px;
+           background-color: #EDEDED;
+        
+        }
+        .cap1{
+            height: 10vh;
+            width: 90vw;
+            margin: var(--bottom);
+           text-align: center;
+           border-radius: 10px;
+           position: absolute;
+           top: 119%;
+           left: 5%;
+           font-size: 1.5em;
+        }
+        
+        
+        #d{
+            width: 90vw;
+            height: 16vh;
+           line-height: 7px;
+           position: absolute;
+           top: 145%;
+           left: 5%;
+           
+        }
+        .but{
+            width: 90vw;
+            height: 10vh;
+            position: absolute;
+            top: 133%;
+            left: 5%;
+            
+        }
+        
+    
+    
+        
+    }
